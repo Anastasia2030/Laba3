@@ -1,0 +1,2 @@
+nasm -f elf64 programm.asm -o programm.o 
+g++ programm.cpp programm.o -no-pie  -o output
